@@ -2,7 +2,7 @@ const getSumBtn = document.createElement("button");
 getSumBtn.append("Get Total Price");
 document.body.appendChild(getSumBtn);
 const Prices = document.getElementsByClassName("price");
-const total=document.getElementById("total")
+const total=document.getElementById("ans")
 const getSum = () => {
   let totalsum=0
 	for(let val of Prices){
